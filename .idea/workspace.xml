@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebd8823b-6a07-4051-89e2-405020fa003b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BetterStudentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BetterStudentManagerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BetterStudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BetterStudentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +26,65 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0148265247827853E-11" />
+      <entry key="MS500" value="0.007029298173037251" />
+      <entry key="S2" value="0.45081679760570625" />
+      <entry key="S5" value="1.2628416077687639" />
+      <entry key="S10" value="2.20859305585925" />
+      <entry key="S30" value="4.038680060274641" />
+      <entry key="S60" value="5.216872756364303" />
+      <entry key="M2" value="7.516063443220487" />
+      <entry key="M5" value="16.047814199624224" />
+      <entry key="M10" value="27.0641164728493" />
+      <entry key="M15" value="34.18854133064802" />
+      <entry key="M30" value="45.129176810809234" />
+      <entry key="H1" value="52.90720725796608" />
+      <entry key="H2" value="57.615447442029215" />
+      <entry key="H4" value="60.21606586026611" />
+      <entry key="D1" value="62.52262170879167" />
+      <entry key="W1" value="62.93146620988492" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0" />
+      <entry key="M5" value="1.0" />
+      <entry key="M10" value="1.0" />
+      <entry key="M15" value="1.0" />
+      <entry key="M30" value="1.0" />
+      <entry key="H1" value="1.0" />
+      <entry key="H2" value="1.0" />
+      <entry key="H4" value="1.0" />
+      <entry key="D1" value="1.0" />
+      <entry key="W1" value="1.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="7.564691810276338E-10" />
+      <entry key="MS500" value="0.01575478676211454" />
+      <entry key="S2" value="0.599069625223611" />
+      <entry key="S5" value="1.6278511345680073" />
+      <entry key="S10" value="2.7476851980877948" />
+      <entry key="S30" value="4.816764194461392" />
+      <entry key="S60" value="6.087229293624646" />
+      <entry key="M2" value="8.432402021466658" />
+      <entry key="M5" value="16.96299566518756" />
+      <entry key="M10" value="27.965243785614724" />
+      <entry key="M15" value="35.09480779261395" />
+      <entry key="M30" value="46.06059151877238" />
+      <entry key="H1" value="53.865326570637556" />
+      <entry key="H2" value="58.59225538354404" />
+      <entry key="H4" value="61.203855872090244" />
+      <entry key="D1" value="63.52049675490059" />
+      <entry key="W1" value="63.9311603784384" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -40,23 +98,103 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.BetterStudentManagerTests.testAddStudent.executor": "Debug",
+    "JUnit.BetterStudentManagerTests.testRemoveStudent.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/mikel/projects/java/software-dev-course-classes-and-objects-1/pom.xml",
+    "last_opened_file_path": "/Users/calebhickey/Documents/LaunchCode/01 2026 Cohort/U2/software-dev-course-classes-and-objects-2-caleb-hickey",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="org.example" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BetterStudentManagerTests.testGetStudentList">
+    <configuration name="BetterStudentManagerTests.testAddStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software-dev-course-classes-and-objects-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.BetterStudentManagerTests" />
+      <option name="METHOD_NAME" value="testAddStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BetterStudentManagerTests.testGetStudentList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software-dev-course-classes-and-objects-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.BetterStudentManagerTests" />
+      <option name="METHOD_NAME" value="testGetStudentList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BetterStudentManagerTests.testRemoveStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="software-dev-course-classes-and-objects-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.BetterStudentManagerTests" />
+      <option name="METHOD_NAME" value="testRemoveStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BetterStudentManagerTests.testGetStudentList" />
+        <item itemvalue="JUnit.BetterStudentManagerTests.testRemoveStudent" />
+        <item itemvalue="JUnit.BetterStudentManagerTests.testAddStudent" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,5 +206,8 @@
       <updated>1738943657860</updated>
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

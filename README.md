@@ -11,7 +11,7 @@ You will need to create a `Student` class to represent a student, and you will n
 > `Student` class is not yet created and implemented.  Once you have implemented the `Student` class, the errors will
 > disappear.
 
-## Implementing the Student Class
+## Implementing the org.example.Student Class
 
 To implement the `Student` class, you will need to create a new class called `Student` in the `src/main/java/org/example`
 directory. The `Student` class should have the following public (non-static) fields:

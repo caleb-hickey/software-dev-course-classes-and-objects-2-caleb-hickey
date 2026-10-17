@@ -40,7 +40,7 @@ public class Main {
         System.out.print("Enter student grade: ");
         double grade = Double.parseDouble(scanner.nextLine());
         manager.addStudent(name, grade);
-        System.out.println("Student added");
+        System.out.println("org.example.Student added");
         mainMenu();
     }
 
@@ -48,7 +48,7 @@ public class Main {
         System.out.print("Enter student name: ");
         String name = scanner.nextLine();
         manager.removeStudent(name);
-        System.out.println("Student removed");
+        System.out.println("org.example.Student removed");
         mainMenu();
     }
 
